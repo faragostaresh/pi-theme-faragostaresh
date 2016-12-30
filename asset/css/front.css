@@ -381,6 +381,38 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     font-size: 18px;
 }
 
+
+/* pagination */
+.pagination > li > a,
+.pagination > li > span {}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    color: #fff;
+    background-color: #E66120;
+    border-color: #E66120;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    color: #fff;
+    background-color: #E66120;
+    border-color: #E66120;
+}
+
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {}
+
 /* list or order list */
 .pi-list {
 
